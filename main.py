@@ -7,7 +7,7 @@ def main():
     if int(user_input[0]) == int(user_input[1]):
         print(int(user_input[0])+1)
     else:
-        if user_input[0] >= user_input[1]:
+        if int(user_input[0]) >= int(user_input[1]):
             for i in range(int(user_input[0]) - int(user_input[1])+1):
                 print(i + int(user_input[0])+1)
         else:
