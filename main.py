@@ -4,6 +4,7 @@
 
 def main():
     user_input = input().split(" ")
+    user_input = user_input
     if int(user_input[0]) == int(user_input[1]):
         print(int(user_input[0])+1)
     else:
